@@ -955,7 +955,13 @@ footer ul li a:hover {
   width: 100%;
   padding: 85px 0 75px;
   position: relative;
-  margin-top: 70px;
+  /* margin-top: 70px; */
+}
+
+.section-4-homepage img {
+  /* width: 400px; */
+  /* margin-left: -200px; */
+  /* margin-top: -200px; */
 }
 
 .section-4-homepage::before {
@@ -976,12 +982,25 @@ footer ul li a:hover {
     top: 80px;
     background: none;
   }
+
+  .section-1-homepage {
+    margin-top: 150px;
+  }
+
+  .main-content {
+    margin-top: -150px;
+  }
 }
 
 @media screen and (min-width: 992px) {
   .section-4-homepage .row {
     display: flex;
     align-items: center;
+  }
+
+  .section-4-homepage img {
+    margin-left: -255px;
+    margin-top: 45px;
   }
 }
 
