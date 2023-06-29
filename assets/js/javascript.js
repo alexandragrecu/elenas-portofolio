@@ -63,34 +63,34 @@ jQuery(document).ready(function ($) {
   });
 });
 // Add Product
-jQuery(document).ready(function ($) {
-  $(".buttonaddproduct").click(function () {
-    event.preventDefault();
-    // Do other stuff if needed
-    $(".buttonaddproduct").addClass("hidden");
-    $(".disclaimer-points-added").removeClass("hidden");
-  });
-});
-// Add Product disclaimer
-jQuery(document).ready(function ($) {
-  $(".wrapper-modal-product .btn-blue").click(function () {
-    event.preventDefault();
-    // Do other stuff if needed
-    $(".wrapper-modal-product").addClass("hidden");
-    $(".disclaimer-product-added").removeClass("hidden");
-  });
-});
-// Show Product Modal
-jQuery(document).ready(function ($) {
-  $(".box-single-product a").click(function () {
-    event.preventDefault();
-    // Do other stuff if needed
-    $("#myModalProduct").addClass("show");
-  });
-  $(".closeproduct").click(function () {
-    $("#myModalProduct").removeClass("show");
-  });
-});
+// jQuery(document).ready(function ($) {
+//   $(".buttonaddproduct").click(function () {
+//     event.preventDefault();
+//     // Do other stuff if needed
+//     $(".buttonaddproduct").addClass("hidden");
+//     $(".disclaimer-points-added").removeClass("hidden");
+//   });
+// });
+// // Add Product disclaimer
+// jQuery(document).ready(function ($) {
+//   $(".wrapper-modal-product .btn-blue").click(function () {
+//     event.preventDefault();
+//     // Do other stuff if needed
+//     $(".wrapper-modal-product").addClass("hidden");
+//     $(".disclaimer-product-added").removeClass("hidden");
+//   });
+// });
+// // Show Product Modal
+// jQuery(document).ready(function ($) {
+//   $(".box-single-product a").click(function () {
+//     event.preventDefault();
+//     // Do other stuff if needed
+//     $("#myModalProduct").addClass("show");
+//   });
+//   $(".closeproduct").click(function () {
+//     $("#myModalProduct").removeClass("show");
+//   });
+// });
 // Load More
 jQuery(document).ready(function ($) {
   /*global $, document, alert, console*/
