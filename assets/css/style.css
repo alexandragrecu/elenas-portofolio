@@ -764,6 +764,13 @@ footer ul li a:hover {
   }
 }
 
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Adjust this value based on your needs */
+}
+
 /* Homepage  */
 
 .section-1-homepage {
@@ -2007,4 +2014,32 @@ footer ul li a:hover {
 
 .subtitle-2 {
   color: #20dd20;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center; /* center the buttons horizontally */
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  background-color: #20dd20;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buttons button:hover {
+  background-color: #04aa6d;
+}
+
+.buttons button.clicked {
+  background-color: #20dd20 !important;
 }
