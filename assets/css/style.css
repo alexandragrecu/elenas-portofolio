@@ -2043,3 +2043,23 @@ footer ul li a:hover {
 .buttons button.clicked {
   background-color: #20dd20 !important;
 }
+
+@media (max-width: 767px) {
+  .section-4-homepage .row {
+    flex-direction: column-reverse;
+  }
+
+  .section-2-homepage .row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .section-3-homepage .row {
+    display: flex;
+    flex-direction: column;
+  }
+  /* .section-6-homepage .row {
+    display: flex;
+    flex-direction: column;
+  } */
+}
