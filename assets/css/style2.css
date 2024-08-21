@@ -2064,6 +2064,13 @@ body {
     .hey {
         display: none !important;
     }
+
+    
+    .heyy {
+        width: 100% !important;
+        height: auto !important
+    }
+    
     /* .section-3-homepage .row {
       display: flex;
       flex-direction: column;
